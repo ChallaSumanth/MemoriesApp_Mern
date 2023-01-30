@@ -33,4 +33,5 @@ mongoose.connect(process.env.CONNECTION_URL,{useNewUrlParser : true, useUnifiedT
  .then(() => app.listen(PORT,() => console.log(`Server running on port : ${PORT}`)))
  .catch((error) => console.log(error.message));
 
+ //mongoose.set('strictQuery', false);
  //mongoose.set('useFindAndModify',false); // not to get any warinigs in console
