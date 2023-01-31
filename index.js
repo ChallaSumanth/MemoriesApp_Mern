@@ -34,4 +34,4 @@ mongoose.connect(process.env.CONNECTION_URL,{useNewUrlParser : true, useUnifiedT
  .catch((error) => console.log(error.message));
 
  //mongoose.set('strictQuery', false);
- mongoose.set('useFindAndModify',false); // not to get any warinigs in console
+ //mongoose.set('useFindAndModify',false); // not to get any warinigs in console
